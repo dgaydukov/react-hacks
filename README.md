@@ -1,19 +1,22 @@
-# react-hacks
+# React Hacks
 
-This project includes some interesting and the same time hard problems i have encountered developing react apps
+This project includes some interesting and the same time hard problems i have encountered developing react apps.
+All my problems i divide on average & large. Solution for average problems i show in this repo, but for large i created a distinct repo for each of them
+
+### Average
 
 * [auto-build](https://github.com/dgaydukov/react-hacks/blob/master/md/auto-build.md)
 * [event-memoization-&-render-optimization](https://github.com/dgaydukov/react-hacks/blob/master/md/event-memoization-&-render-optimization.md)
 * [react-virtualization](https://github.com/dgaydukov/react-hacks/blob/master/md/react-virtualization.md)
 * [redirect-strategy](https://github.com/dgaydukov/react-hacks/blob/master/md/redirect-strategy.md)
 
-## Really Big
-
-There are others problems, i solved, but they were to big to be part on one repository, so i created a repo for each of them
+### Large
 
 * [react-partial-application](https://github.com/dgaydukov/react-partial-application)
 * [cross-domain-iframe-integration](https://github.com/dgaydukov/cross-domain-iframe-integration)
 
+
+## Project Description
 
 ### Getting Started
 
