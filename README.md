@@ -2,10 +2,10 @@
 
 This project includes some interesting and the same time hard problems i have encountered developing react apps
 
-* auto-build
-* react-redirect-strategy
-* react-virtualization
-* render-optimization-&-event-memoization-with-weakmaps
+* [auto-build](https://github.com/dgaydukov/react-hacks/blob/master/md/auto-build.md)
+* [event-memoization](https://github.com/dgaydukov/react-hacks/blob/master/md/event-memoization.md) - render-optimization-&-event-memoization-with-weakmaps
+* [react-virtualization](https://github.com/dgaydukov/react-hacks/blob/master/md/react-virtualization.md)
+* [redirect-strategy](https://github.com/dgaydukov/react-hacks/blob/master/md/redirect-strategy.md)
 
 ## Really Big
 
