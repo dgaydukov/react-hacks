@@ -1,4 +1,4 @@
-### Event Memoization & Render Optimization using WeakMap
+# Event Memoization & Render Optimization using WeakMap
 
 Suppose you have a component Button, that you call 10 times
 ```javascript
