@@ -86,7 +86,7 @@ const execCbList = (list, cb, lastCb) => {
     loopThroughArr();
 }
 
-const branches = ["dev", "hotfix", "master", "qa"];
+const branches = ["dev", "hotfix", "master"];
 
 let execRun = 0;
 const run = () => {

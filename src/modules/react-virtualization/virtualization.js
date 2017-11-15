@@ -18,6 +18,7 @@ export default class Virtualization extends React.Component {
             end: PER_PAGE,
         }
         this.loadMore = throttle(this.loadMore.bind(this), 300);
+        this.pageYOffset = 0;
     }
 
     componentDidMount() {
@@ -31,15 +32,26 @@ export default class Virtualization extends React.Component {
         document.removeEventListener("scroll", this.loadMore);
     }
 
+    //todo: finish with right count of num
     loadMore() {
-        const height = document.body.scrollHeight - window.pageYOffset - document.body.offsetHeight;
-        console.log(height)
-        if (height < 200) {
-            // this.setState({
-            //     start: this.state.end,
-            //     end: this.state.end + PER_PAGE,
-            // })
+        let start = this.state.start,
+            end = this.state.end;
+        const num = Math.floor(window.pageYOffset/RECORD_HEIGHT)
+        console.log(start, end, num)
+        if (window.pageYOffset > this.pageYOffset) {
+            // move down
+            start += num;
+            end += num;
         }
+        else{
+            start -= num;
+            end -= num;
+        }
+        this.setState({
+            start: start,
+            end: end,
+        })
+        this.pageYOffset = window.pageYOffset;
     }
 
     render() {
