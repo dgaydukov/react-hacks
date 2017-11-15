@@ -4,7 +4,7 @@ import React from 'react';
 import axios from 'axios'
 import * as s from "./style.css";
 
-const RECORD_NUMBER = 100;
+const RECORD_NUMBER = 30000;
 
 export default class RenderAll extends React.Component{
     constructor(props){
