@@ -6,6 +6,7 @@ All my problems i divide on average & large. Solution for average problems i sho
 ### Average
 
 * [auto-build](https://github.com/dgaydukov/react-hacks/blob/master/md/auto-build.md)
+* [auto-tests](https://github.com/dgaydukov/react-hacks/blob/master/md/auto-test.md)
 * [event-memoization-&-render-optimization](https://github.com/dgaydukov/react-hacks/blob/master/md/event-memoization-&-render-optimization.md)
 * [react-virtualization](https://github.com/dgaydukov/react-hacks/blob/master/md/react-virtualization.md)
 * [redirect-strategy](https://github.com/dgaydukov/react-hacks/blob/master/md/redirect-strategy.md)

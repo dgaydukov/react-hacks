@@ -7,7 +7,7 @@ import * as s from "./style.css";
 
 const RECORD_TO_DISPLAY = 30000;
 const RECORD_HEIGHT = 40;
-const PER_PAGE = 20;
+const PER_PAGE = 22;
 
 export default class Virtualization extends React.Component {
     constructor(props) {
@@ -48,12 +48,12 @@ export default class Virtualization extends React.Component {
             <div>
                 <h2>Virtualization</h2>
                 <div style={{height: RECORD_TO_DISPLAY*RECORD_HEIGHT+"px"}}>
-                    <table>
+                    <table className={s.fixed}>
                         <thead>
                         <tr>
                             {fields.map((item, i)=> {
                                 return (
-                                    <th key={i} className={s.th}>{item}</th>
+                                    <th key={i}>{item}</th>
                                 )
                             })}
                         </tr>
@@ -64,7 +64,7 @@ export default class Virtualization extends React.Component {
                                 <tr key={i}>
                                     {fields.map((field, j)=> {
                                         return (
-                                            <td key={j} className={s.td}>{item[field]}</td>
+                                            <td key={j}>{item[field]}</td>
                                         )
                                     })}
                                 </tr>
