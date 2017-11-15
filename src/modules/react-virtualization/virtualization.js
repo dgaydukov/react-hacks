@@ -36,16 +36,25 @@ export default class Virtualization extends React.Component {
     loadMore() {
         let start = this.state.start,
             end = this.state.end;
-        const num = Math.floor(window.pageYOffset/RECORD_HEIGHT)
+        const diff = window.pageYOffset - this.pageYOffset;
+        const num = Math.floor(Math.abs(diff)/RECORD_HEIGHT)
         console.log(start, end, num)
-        if (window.pageYOffset > this.pageYOffset) {
+        if (diff > 0) {
             // move down
             start += num;
             end += num;
+            if(start > RECORD_TO_DISPLAY){
+                start = RECORD_TO_DISPLAY - PER_PAGE;
+                end = RECORD_TO_DISPLAY;
+            }
         }
         else{
             start -= num;
             end -= num;
+            if(start < 0){
+                start = 0;
+                end = PER_PAGE;
+            }
         }
         this.setState({
             start: start,
