@@ -10,6 +10,7 @@ All my problems i divide on average & large. Solution for average problems i sho
 * [event-memoization-&-render-optimization](https://github.com/dgaydukov/react-hacks/blob/master/md/event-memoization-&-render-optimization.md)
 * [react-virtualization](https://github.com/dgaydukov/react-hacks/blob/master/md/react-virtualization.md)
 * [redirect-strategy](https://github.com/dgaydukov/react-hacks/blob/master/md/redirect-strategy.md)
+* [tdd-vs-bdd](https://github.com/dgaydukov/react-hacks/blob/master/md/tdd-vs-bdd.md)
 
 ### Large
 
