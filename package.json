@@ -67,7 +67,7 @@
     "postcss-nested": "2.1.2",
     "postcss-simple-vars": "4.1.0",
     "sendevent": "1.0.4",
-    "simple-git": "1.82.0",
+    "simple-git": "3.3.0",
     "style-loader": "0.17.0",
     "uglifycss": "0.0.27",
     "webpack-bundle-analyzer": "3.3.2"
