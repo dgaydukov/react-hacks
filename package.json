@@ -16,7 +16,7 @@
     "axios": "0.19.0-beta.1",
     "body-parser": "1.19.0",
     "cross-env": "5.0.5",
-    "express": "4.17.1",
+    "express": "4.17.3",
     "fs-extra": "3.0.1",
     "history": "4.6.3",
     "html-webpack-plugin": "2.30.1",
